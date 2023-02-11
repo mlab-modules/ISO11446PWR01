@@ -1,3 +1,4 @@
+name: Update actions and assets repository
 on:
   schedule:
   - cron: "0 0 * * *"
