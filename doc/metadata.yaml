@@ -4,5 +4,14 @@ github_repo: ISO11446PWR01
 github_url: https://github.com/mlab-modules/ISO11446PWR01
 homepage: true
 mark: 50
-tags: []
+tags:
+- 12v
+- car
+- open-source
+- power-source
+- signals-collection
+- 14-pin
+- trailer-connector
+- trailer-emulator
+- trailer-socket
 title: ISO11446PWR01
