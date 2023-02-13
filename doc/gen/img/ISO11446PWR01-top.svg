@@ -419,7 +419,7 @@
 </g> 
 </g><g id="substrate-silk" style="fill:#0b1013; stroke:#0b1013;" mask="url(#pads-mask-silkscreen)"><g style="fill-opacity: 0.0;stroke-width: 3048.000000;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
 <g transform="rotate(-90.000000 2100580.000000 431800.000000)">
-<text x="2100580.000000" y="439420.000000" textLength="26125.720000" font-size="20320.000000" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">J6</text>
+<text x="2100580.000000" y="439420.000000" textLength="28075.710000" font-size="20320.000000" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">J6</text>
 </g>
 <g class="stroked-text"><desc>J6</desc>
 <path d="M2092234 436880 L2103120 436880 L2105297 437605 L2106748 439057 L2107474 441234 L2107474 442685 "/>
