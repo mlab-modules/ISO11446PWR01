@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ISO11446PWR01.kicad_sch</source>
-    <date>Thu Feb 16 21:29:36 2023</date>
+    <date>Thu Feb 16 21:48:24 2023</date>
     <tool>Eeschema 6.0.10+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -148,7 +148,7 @@
       <tstamps>fd1e3c55-10e7-496c-9431-54c316ba931e</tstamps>
     </comp>
     <comp ref="F1">
-      <value>Polyfuse</value>
+      <value>SD110-16</value>
       <footprint>Mlab_F:1812</footprint>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value=""/>
@@ -166,7 +166,7 @@
       <tstamps>4f8cae58-16a3-433a-9c72-6b718c14a0d7</tstamps>
     </comp>
     <comp ref="F3">
-      <value>Polyfuse</value>
+      <value>SD110-16</value>
       <footprint>Mlab_F:1812</footprint>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value=""/>
@@ -175,13 +175,22 @@
       <tstamps>ad27233b-efd3-44db-aa70-a80f23f9b445</tstamps>
     </comp>
     <comp ref="F4">
-      <value>Polyfuse</value>
+      <value>SD110-16</value>
       <footprint>Mlab_F:1812</footprint>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b8eb3f46-586d-42f3-81d1-5b515eec54ba</tstamps>
+    </comp>
+    <comp ref="F5">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Keystone_3555-2</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39ddebb0-7aa3-4cf9-9463-f95731b7b8df</tstamps>
     </comp>
     <comp ref="J1">
       <value>1 - Směrové L</value>
@@ -373,7 +382,7 @@
       <tstamps>02ecec71-7015-40a1-89e0-75b245fdc11b</tstamps>
     </comp>
     <comp ref="J22">
-      <value>Umin ... 5V</value>
+      <value>5V</value>
       <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
       <libsource lib="header" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
@@ -418,7 +427,7 @@
       <tstamps>00000000-0000-0000-0000-0000549d7665</tstamps>
     </comp>
     <comp ref="R1">
-      <value>800</value>
+      <value>800R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -427,7 +436,7 @@
       <tstamps>eb47b825-0bdb-462f-abdf-a4427955a16c</tstamps>
     </comp>
     <comp ref="R2">
-      <value>36</value>
+      <value>36R</value>
       <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -436,7 +445,7 @@
       <tstamps>c32940b3-e5fe-48e7-bda6-7dea7f0be5ee</tstamps>
     </comp>
     <comp ref="R3">
-      <value>36</value>
+      <value>36R</value>
       <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -445,7 +454,7 @@
       <tstamps>e938c3bb-39d9-4591-a629-2b7a7a59be62</tstamps>
     </comp>
     <comp ref="R4">
-      <value>36</value>
+      <value>36R</value>
       <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -454,7 +463,7 @@
       <tstamps>187ca2fa-06eb-418a-b55b-edbda5e72843</tstamps>
     </comp>
     <comp ref="R5">
-      <value>36</value>
+      <value>36R</value>
       <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -463,7 +472,7 @@
       <tstamps>fd112008-a94f-4ddf-be98-9ac6924faf64</tstamps>
     </comp>
     <comp ref="R6">
-      <value>36</value>
+      <value>36R</value>
       <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -472,7 +481,7 @@
       <tstamps>b2580e32-1de2-4715-9617-745391e19993</tstamps>
     </comp>
     <comp ref="R7">
-      <value>36</value>
+      <value>36R</value>
       <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -481,7 +490,7 @@
       <tstamps>264708a7-299f-435c-a25c-b3e9ed613f80</tstamps>
     </comp>
     <comp ref="R8">
-      <value>36</value>
+      <value>36R</value>
       <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -490,7 +499,7 @@
       <tstamps>e4aee276-b217-4c48-96ef-45be713a2605</tstamps>
     </comp>
     <comp ref="R9">
-      <value>240</value>
+      <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -499,7 +508,7 @@
       <tstamps>ee62c83d-8329-4a87-8b12-a464087566c3</tstamps>
     </comp>
     <comp ref="R10">
-      <value>240</value>
+      <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -508,7 +517,7 @@
       <tstamps>006a628a-7c99-4037-8fe0-4729c8e01d06</tstamps>
     </comp>
     <comp ref="R11">
-      <value>240</value>
+      <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -517,7 +526,7 @@
       <tstamps>c29ad7ee-6740-4ccf-a3e5-fe868834c5a7</tstamps>
     </comp>
     <comp ref="R12">
-      <value>800</value>
+      <value>800R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -526,7 +535,7 @@
       <tstamps>b43a751a-f207-409c-912b-42f88e5fefdf</tstamps>
     </comp>
     <comp ref="R13">
-      <value>240</value>
+      <value>2k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -535,7 +544,7 @@
       <tstamps>c6338b3f-1fd5-4f92-870c-1904398587f2</tstamps>
     </comp>
     <comp ref="R14">
-      <value>240</value>
+      <value>2k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -544,7 +553,7 @@
       <tstamps>cfee4420-5838-4f43-bbaf-ecb09629e678</tstamps>
     </comp>
     <comp ref="R15">
-      <value>240</value>
+      <value>2k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -553,7 +562,7 @@
       <tstamps>db33a993-b459-48ff-90ae-050f59a9d29e</tstamps>
     </comp>
     <comp ref="R16">
-      <value>240</value>
+      <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -562,7 +571,7 @@
       <tstamps>c22d8b9c-fd54-466b-97af-8cdea32a3295</tstamps>
     </comp>
     <comp ref="R17">
-      <value>240</value>
+      <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -571,7 +580,7 @@
       <tstamps>0966e358-ea56-41b4-a028-1b9df82fd4d0</tstamps>
     </comp>
     <comp ref="R18">
-      <value>240</value>
+      <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -580,7 +589,7 @@
       <tstamps>b204c887-13be-4b68-a1a3-5569cc4a4b19</tstamps>
     </comp>
     <comp ref="R19">
-      <value>240</value>
+      <value>2k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -589,7 +598,7 @@
       <tstamps>2f37ac2f-6e76-4c0f-bcde-b24973f55138</tstamps>
     </comp>
     <comp ref="R20">
-      <value>240</value>
+      <value>2k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -598,7 +607,7 @@
       <tstamps>7fc13e2e-14f2-43a1-baf0-1a2cfbd23cee</tstamps>
     </comp>
     <comp ref="R21">
-      <value>240</value>
+      <value>2k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -607,7 +616,7 @@
       <tstamps>5fcdb66d-570d-417f-b04a-2e05b7903b2f</tstamps>
     </comp>
     <comp ref="R22">
-      <value>240</value>
+      <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -616,7 +625,7 @@
       <tstamps>76bd1e7f-2ba8-4b00-9128-21b607fd8dee</tstamps>
     </comp>
     <comp ref="R23">
-      <value>240</value>
+      <value>2k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1088,11 +1097,10 @@
       <node ref="J20" pin="5" pintype="input"/>
       <node ref="J20" pin="6" pintype="input"/>
     </net>
-    <net code="31" name="Net-(M1-Pad1)">
-      <node ref="M1" pin="1" pintype="input"/>
-      <node ref="M2" pin="1" pintype="input"/>
-      <node ref="M3" pin="1" pintype="input"/>
-      <node ref="M4" pin="1" pintype="input"/>
+    <net code="31" name="Net-(F5-Pad1)">
+      <node ref="F5" pin="1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
     </net>
     <net code="32" name="Net-(R9-Pad2)">
       <node ref="R9" pin="2" pintype="passive"/>
@@ -1125,9 +1133,8 @@
     <net code="39" name="S12+">
       <node ref="F3" pin="1" pintype="passive"/>
       <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="F5" pin="2" pintype="passive"/>
       <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
     </net>
     <net code="40" name="S12-">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -1158,6 +1165,18 @@
     </net>
     <net code="43" name="unconnected-(J12-Pad1)">
       <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(M1-Pad1)">
+      <node ref="M1" pin="1" pintype="input+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(M2-Pad1)">
+      <node ref="M2" pin="1" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(M3-Pad1)">
+      <node ref="M3" pin="1" pintype="input+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(M4-Pad1)">
+      <node ref="M4" pin="1" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>
