@@ -58,8 +58,8 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (84) defined: no
-- 0.25 mm (10 mils) (368) defined: no
+- 0.2 mm (8 mils) (78) defined: no
+- 0.25 mm (10 mils) (362) defined: no
 
 Defined vias:
 
