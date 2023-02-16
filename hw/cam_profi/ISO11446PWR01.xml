@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ISO11446PWR01.kicad_sch</source>
-    <date>Wed Feb 15 22:13:33 2023</date>
+    <date>Thu Feb 16 18:39:11 2023</date>
     <tool>Eeschema 6.0.10+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,7 +26,7 @@
   <components>
     <comp ref="C1">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Mlab_C:SMD-0805</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
       </fields>
@@ -54,6 +54,87 @@
       <tstamps>7fab2e4e-c967-46aa-8b62-a4eb722fba85</tstamps>
     </comp>
     <comp ref="D1">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ba565f3-3d2c-4289-a6de-f51d5d4841cd</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aea557dd-2b5a-41c5-b79d-b73a4e017e60</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77b9a3a3-9cb0-4268-881e-45e483c2bfe8</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b12adfc-1597-4e31-928d-f1e169b0672e</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb3885da-8055-4896-bcca-c931c87448b9</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>572d254d-c2a3-48a4-81af-95e9c97f2db7</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60eb6e47-cc04-4f0d-9fc9-2d3bde999174</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>100114cc-0ee5-4ccc-beb7-376c22c5c6ed</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5539981-1674-43af-bef7-b024c69ef9ac</tstamps>
+    </comp>
+    <comp ref="D10">
       <value>BZV55C-5,6V</value>
       <footprint>Diode_SMD:D_SMA</footprint>
       <fields>
@@ -67,52 +148,43 @@
       <tstamps>fd1e3c55-10e7-496c-9431-54c316ba931e</tstamps>
     </comp>
     <comp ref="F1">
+      <value>Polyfuse</value>
+      <footprint>Mlab_F:1812</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d82c11c8-5f8e-487f-81e0-caef3e5c7f8d</tstamps>
+    </comp>
+    <comp ref="F2">
       <value>Fuse</value>
-      <footprint>Fuse:Fuse_Bourns_MF-RG400</footprint>
+      <footprint>Fuse:Fuseholder_Keystone_3555-2</footprint>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4f8cae58-16a3-433a-9c72-6b718c14a0d7</tstamps>
     </comp>
-    <comp ref="F2">
+    <comp ref="F3">
       <value>Polyfuse</value>
-      <footprint>Fuse:Fuse_Bourns_MF-RG400</footprint>
+      <footprint>Mlab_F:1812</footprint>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ad27233b-efd3-44db-aa70-a80f23f9b445</tstamps>
     </comp>
+    <comp ref="F4">
+      <value>Polyfuse</value>
+      <footprint>Mlab_F:1812</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8eb3f46-586d-42f3-81d1-5b515eec54ba</tstamps>
+    </comp>
     <comp ref="J1">
-      <value>HEADER_2x04_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9a8b55d2-6b44-4b17-ab26-1a1867f07673</tstamps>
-    </comp>
-    <comp ref="J2">
-      <value>HEADER_2x04_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>38983d48-213a-4555-82a9-31828e09dfa4</tstamps>
-    </comp>
-    <comp ref="J3">
-      <value>HEADER_2x04_PARALLEL</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9fb30a45-2f01-42d1-9cc6-234b9ef9c274</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>Conn_01x01_Female</value>
+      <value>1 - Směrové L</value>
       <footprint>Mlab_CON:WAGO256</footprint>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
@@ -120,8 +192,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>53fa7186-bdf5-4670-a237-6a0f83a8b1b1</tstamps>
     </comp>
-    <comp ref="J5">
-      <value>Conn_01x01_Female</value>
+    <comp ref="J2">
+      <value>2 - Zadní mlhové</value>
       <footprint>Mlab_CON:WAGO256</footprint>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
@@ -129,8 +201,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a48c2c53-4a7d-41ca-a32a-cdbb39279387</tstamps>
     </comp>
-    <comp ref="J6">
-      <value>Conn_01x01_Female</value>
+    <comp ref="J3">
+      <value>3 - Kostra světla</value>
       <footprint>Mlab_CON:WAGO256</footprint>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
@@ -138,8 +210,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>03560e3d-f676-4a98-a512-0b6c614a80c7</tstamps>
     </comp>
-    <comp ref="J7">
-      <value>Conn_01x01_Female</value>
+    <comp ref="J4">
+      <value>4 - Směrové P</value>
       <footprint>Mlab_CON:WAGO256</footprint>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
@@ -147,8 +219,161 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>80b28e5b-c410-407d-9790-f12fcc6979b5</tstamps>
     </comp>
+    <comp ref="J5">
+      <value>5 - Obrsové P</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2c7f554-9057-4795-b269-bc181c317d80</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>6 - Brzdové</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6184a7e4-a1fd-4181-9330-767b89870bf6</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>7 - Obrysové L</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38539b37-9fe3-456d-84f7-e00055888f48</tstamps>
+    </comp>
     <comp ref="J8">
-      <value>Umin ... Umax</value>
+      <value>8 - Couvací</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bf26b09-36f4-4cde-bb49-5776af04ebb7</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>9 - Trvalé 12V +</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5aa2c9fe-ade7-41e1-8685-ea89b44fb952</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>10 - Spínané 12V +</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1418e1b-e06d-4acb-85f1-65b6441fb67c</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>11 - Spínané 12V -</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>133ef08b-0506-4287-aa84-22a5b71b7aa1</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>12 - Not used</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d055e370-277d-4473-89d4-32eb2fa69e08</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>13 - Trvalé 12V -</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d057091-8d61-43c7-8b98-76ceeb0eab58</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Trvalé 12V</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fb30a45-2f01-42d1-9cc6-234b9ef9c274</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>13 - Trvalé 12V +</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b19e9039-998e-4761-af8f-ac318838a46e</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>13 - Trvalé 12V -</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93ba797c-ce08-41f9-9461-07e694a53b02</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>13 - Spínané 12V +</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2618cbe8-9696-4d6a-9a80-9a24cd310c0a</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>13 - Spínané 12V -</value>
+      <footprint>Mlab_CON:WAGO256</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81617e5e-1b7c-46b4-99e2-58c3dd8daf28</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>Ventilator 12V</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a8b55d2-6b44-4b17-ab26-1a1867f07673</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>Spinane 12V</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38983d48-213a-4555-82a9-31828e09dfa4</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>Signal Světel</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x07</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x07_PARALLEL" description="2x07 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02ecec71-7015-40a1-89e0-75b245fdc11b</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>Umin ... 5V</value>
       <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
       <libsource lib="header" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
@@ -192,6 +417,283 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000549d7665</tstamps>
     </comp>
+    <comp ref="R1">
+      <value>800</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb47b825-0bdb-462f-abdf-a4427955a16c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>36</value>
+      <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c32940b3-e5fe-48e7-bda6-7dea7f0be5ee</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>36</value>
+      <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e938c3bb-39d9-4591-a629-2b7a7a59be62</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>36</value>
+      <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>187ca2fa-06eb-418a-b55b-edbda5e72843</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>36</value>
+      <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd112008-a94f-4ddf-be98-9ac6924faf64</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>36</value>
+      <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2580e32-1de2-4715-9617-745391e19993</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>36</value>
+      <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>264708a7-299f-435c-a25c-b3e9ed613f80</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>36</value>
+      <footprint>Mlab_R:R_Axial_Power_L22.0mm_W9.5mm_P30.48mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4aee276-b217-4c48-96ef-45be713a2605</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee62c83d-8329-4a87-8b12-a464087566c3</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>006a628a-7c99-4037-8fe0-4729c8e01d06</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c29ad7ee-6740-4ccf-a3e5-fe868834c5a7</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>800</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b43a751a-f207-409c-912b-42f88e5fefdf</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6338b3f-1fd5-4f92-870c-1904398587f2</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfee4420-5838-4f43-bbaf-ecb09629e678</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db33a993-b459-48ff-90ae-050f59a9d29e</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c22d8b9c-fd54-466b-97af-8cdea32a3295</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0966e358-ea56-41b4-a028-1b9df82fd4d0</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b204c887-13be-4b68-a1a3-5569cc4a4b19</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f37ac2f-6e76-4c0f-bcde-b24973f55138</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fc13e2e-14f2-43a1-baf0-1a2cfbd23cee</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fcdb66d-570d-417f-b04a-2e05b7903b2f</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76bd1e7f-2ba8-4b00-9128-21b607fd8dee</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>240</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fab3716-c0cf-42eb-a57f-cdafe189d9f4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LTV-357T</value>
+      <footprint>Package_SO:SO-4_4.4x3.6mm_P2.54mm</footprint>
+      <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
+      <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff0945e3-fcf1-4895-91ba-24b0b7028a59</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LTV-357T</value>
+      <footprint>Package_SO:SO-4_4.4x3.6mm_P2.54mm</footprint>
+      <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
+      <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0622787c-981a-4e01-bf74-50a21e447d97</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LTV-357T</value>
+      <footprint>Package_SO:SO-4_4.4x3.6mm_P2.54mm</footprint>
+      <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
+      <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bce221d0-5909-447b-8fbc-291aee40a99d</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LTV-357T</value>
+      <footprint>Package_SO:SO-4_4.4x3.6mm_P2.54mm</footprint>
+      <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
+      <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37e4788f-169d-4e18-b5b6-77b1b0147ee0</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LTV-357T</value>
+      <footprint>Package_SO:SO-4_4.4x3.6mm_P2.54mm</footprint>
+      <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
+      <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dad28e44-f991-45bd-b301-4b93a1ab23b5</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LTV-357T</value>
+      <footprint>Package_SO:SO-4_4.4x3.6mm_P2.54mm</footprint>
+      <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
+      <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0e3f59c-1752-46a2-bc12-d67b2fedc060</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>LTV-357T</value>
+      <footprint>Package_SO:SO-4_4.4x3.6mm_P2.54mm</footprint>
+      <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
+      <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4f0a2a3-f4e6-447f-ab48-9d79c9d6fc91</tstamps>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Connector" part="Conn_01x01_Female">
@@ -225,6 +727,24 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="Polyfuse">
       <description>Resettable fuse, polymeric positive temperature coefficient</description>
       <docs>~</docs>
@@ -235,6 +755,22 @@
       <fields>
         <field name="Reference">F</field>
         <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -270,6 +806,25 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Isolator" part="LTV-357T">
+      <description>DC Optocoupler, Vce 35V, CTR 50%, SO-4</description>
+      <docs>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</docs>
+      <footprints>
+        <fp>SO*4.4x3.6mm*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTV-357T</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x3.6mm_P2.54mm</field>
+        <field name="Datasheet">https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL">
       <description>2x04 2.54 mm pitch header, 2 pins next to each other are connected</description>
       <fields>
@@ -285,6 +840,29 @@
         <pin num="6" name="" type="input"/>
         <pin num="7" name="" type="input"/>
         <pin num="8" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x07_PARALLEL">
+      <description>2x07 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x07_PARALLEL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="" type="input"/>
       </pins>
     </libpart>
     <libpart lib="header" part="HEADER_2x03_PARALLEL">
@@ -319,83 +897,267 @@
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Isolator">
+      <uri>/usr/share/kicad/symbols//Isolator.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="+5V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J8" pin="3" pintype="input"/>
-      <node ref="J8" pin="4" pintype="input"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J22" pin="3" pintype="input"/>
+      <node ref="J22" pin="4" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
     </net>
     <net code="2" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J8" pin="1" pintype="input"/>
-      <node ref="J8" pin="2" pintype="input"/>
-      <node ref="J8" pin="5" pintype="input"/>
-      <node ref="J8" pin="6" pintype="input"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J22" pin="1" pintype="input"/>
+      <node ref="J22" pin="2" pintype="input"/>
+      <node ref="J22" pin="5" pintype="input"/>
+      <node ref="J22" pin="6" pintype="input"/>
+      <node ref="U1" pin="3" pintype="passive"/>
+      <node ref="U2" pin="3" pintype="passive"/>
+      <node ref="U3" pin="3" pintype="passive"/>
+      <node ref="U4" pin="3" pintype="passive"/>
+      <node ref="U5" pin="3" pintype="passive"/>
+      <node ref="U6" pin="3" pintype="passive"/>
+      <node ref="U7" pin="3" pintype="passive"/>
     </net>
-    <net code="3" name="Net-(F1-Pad1)">
-      <node ref="F1" pin="1" pintype="passive"/>
-      <node ref="J1" pin="7" pintype="input"/>
-      <node ref="J1" pin="8" pintype="input"/>
-      <node ref="J2" pin="5" pintype="input"/>
-      <node ref="J2" pin="6" pintype="input"/>
-      <node ref="J2" pin="7" pintype="input"/>
-      <node ref="J2" pin="8" pintype="input"/>
+    <net code="3" name="L1">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="4" name="Net-(F1-Pad2)">
-      <node ref="F1" pin="2" pintype="passive"/>
+    <net code="4" name="L1S">
+      <node ref="J21" pin="1" pintype="input"/>
+      <node ref="J21" pin="2" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+    </net>
+    <net code="5" name="L2">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="L2S">
+      <node ref="J21" pin="3" pintype="input"/>
+      <node ref="J21" pin="4" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pintype="passive"/>
+    </net>
+    <net code="7" name="L4">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="5" name="Net-(F2-Pad1)">
-      <node ref="F2" pin="1" pintype="passive"/>
-      <node ref="J1" pin="5" pintype="input"/>
-      <node ref="J1" pin="6" pintype="input"/>
+    <net code="8" name="L4S">
+      <node ref="J21" pin="5" pintype="input"/>
+      <node ref="J21" pin="6" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(F2-Pad2)">
-      <node ref="F2" pin="2" pintype="passive"/>
+    <net code="9" name="L5">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(J1-Pad1)">
-      <node ref="J1" pin="1" pintype="input"/>
-      <node ref="J1" pin="2" pintype="input"/>
-      <node ref="J3" pin="7" pintype="input"/>
-      <node ref="J3" pin="8" pintype="input"/>
-      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="10" name="L5S">
+      <node ref="J21" pin="7" pintype="input"/>
+      <node ref="J21" pin="8" pintype="input"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3" pintype="input"/>
-      <node ref="J1" pin="4" pintype="input"/>
+    <net code="11" name="L6">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(M1-Pad1)">
+    <net code="12" name="L6S">
+      <node ref="J21" pin="10" pintype="input"/>
+      <node ref="J21" pin="9" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="passive"/>
+    </net>
+    <net code="13" name="L7">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="L7S">
+      <node ref="J21" pin="11" pintype="input"/>
+      <node ref="J21" pin="12" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pintype="passive"/>
+    </net>
+    <net code="15" name="L8">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="L8S">
+      <node ref="J21" pin="13" pintype="input"/>
+      <node ref="J21" pin="14" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U7" pin="4" pintype="passive"/>
+    </net>
+    <net code="17" name="L_GND">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J14" pin="3" pintype="input"/>
+      <node ref="J14" pin="4" pintype="input"/>
+      <node ref="J14" pin="5" pintype="input"/>
+      <node ref="J14" pin="6" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(F3-Pad2)">
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="J19" pin="3" pintype="input"/>
+      <node ref="J19" pin="4" pintype="input"/>
+      <node ref="J19" pin="5" pintype="input"/>
+      <node ref="J19" pin="6" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(F4-Pad2)">
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="J20" pin="3" pintype="input"/>
+      <node ref="J20" pin="4" pintype="input"/>
+      <node ref="J20" pin="5" pintype="input"/>
+      <node ref="J20" pin="6" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(M1-Pad1)">
       <node ref="M1" pin="1" pintype="input"/>
       <node ref="M2" pin="1" pintype="input"/>
       <node ref="M3" pin="1" pintype="input"/>
       <node ref="M4" pin="1" pintype="input"/>
     </net>
-    <net code="10" name="unconnected-(J2-Pad1)">
-      <node ref="J2" pin="1" pintype="input+no_connect"/>
-      <node ref="J2" pin="2" pintype="input+no_connect"/>
+    <net code="32" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="unconnected-(J2-Pad3)">
-      <node ref="J2" pin="3" pintype="input+no_connect"/>
-      <node ref="J2" pin="4" pintype="input+no_connect"/>
+    <net code="33" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="unconnected-(J3-Pad1)">
-      <node ref="J3" pin="1" pintype="input+no_connect"/>
-      <node ref="J3" pin="2" pintype="input+no_connect"/>
+    <net code="34" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="unconnected-(J3-Pad3)">
-      <node ref="J3" pin="3" pintype="input+no_connect"/>
-      <node ref="J3" pin="4" pintype="input+no_connect"/>
+    <net code="35" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="unconnected-(J3-Pad5)">
-      <node ref="J3" pin="5" pintype="input+no_connect"/>
-      <node ref="J3" pin="6" pintype="input+no_connect"/>
+    <net code="36" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="S12+">
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="S12-">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J19" pin="1" pintype="input"/>
+      <node ref="J19" pin="2" pintype="input"/>
+      <node ref="J19" pin="7" pintype="input"/>
+      <node ref="J19" pin="8" pintype="input"/>
+      <node ref="J20" pin="1" pintype="input"/>
+      <node ref="J20" pin="2" pintype="input"/>
+      <node ref="J20" pin="7" pintype="input"/>
+      <node ref="J20" pin="8" pintype="input"/>
+    </net>
+    <net code="41" name="U12+">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="42" name="U12-">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="1" pintype="input"/>
+      <node ref="J14" pin="2" pintype="input"/>
+      <node ref="J14" pin="7" pintype="input"/>
+      <node ref="J14" pin="8" pintype="input"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(J12-Pad1)">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>
