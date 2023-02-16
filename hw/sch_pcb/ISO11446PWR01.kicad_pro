@@ -124,7 +124,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_not_driven|2616200|590550|2113e415-32f5-4dc9-9c35-c69e23c1da1d|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -333,7 +335,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mlab-default.kicad_pro",
+    "filename": "ISO11446PWR01.kicad_pro",
     "version": 1
   },
   "net_settings": {
