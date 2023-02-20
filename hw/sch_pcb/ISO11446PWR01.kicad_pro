@@ -414,6 +414,18 @@
     [
       "2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4",
       ""
+    ],
+    [
+      "79cc698f-ee2f-4fbc-b977-bae81ed242f4",
+      "ISO11446 dummy load"
+    ],
+    [
+      "d856896b-27de-4069-a596-f6babe8e4faa",
+      "Signals output"
+    ],
+    [
+      "241c7625-1ff5-4493-b8d3-af61ba1e3437",
+      "Power Output"
     ]
   ],
   "text_variables": {}
