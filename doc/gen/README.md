@@ -1,6 +1,6 @@
 # PCB
 
-Board size: 80.77x90.93 mm (3.18x3.58 inches)
+Board size: 70.61x90.93 mm (2.78x3.58 inches)
 
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
@@ -22,7 +22,7 @@ Silk screen: TOP / BOTTOM
 
 Clearance: 0.2 mm (8 mils)
 
-Track width: 0.2 mm (8 mils)
+Track width: N/A mm (N/A mils)
 
 - By design rules: 0.2 mm (8 mils)
 
@@ -50,16 +50,14 @@ Eurocircuits class: 4A
 
 Components count: (SMD/THT)
 
-- Top: 0/34 (THT)
-- Bottom: 38/0 (SMD)
+- Top: 0/33 (THT)
+- Bottom: 37/0 (SMD)
 
 Defined tracks:
 
 
 Used tracks:
 
-- 0.2 mm (8 mils) (78) defined: no
-- 0.25 mm (10 mils) (362) defined: no
 
 Defined vias:
 
@@ -69,24 +67,24 @@ Used vias:
 
 Holes (excluding vias):
 
-- 0.89 mm (35 mils) (44)
+- 0.89 mm (35 mils) (36)
 - 1.2 mm (47 mils) (14)
-- 1.3 mm (51 mils) (34)
+- 1.3 mm (51 mils) (32)
+- 1.65 mm (65 mils) (8)
 - 2.7 mm (106 mils) (9)
 - 3.0 mm (118 mils) (4)
-- 3.9 mm (154 mils) (4)
 
 Oval holes:
 
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 1.0 mm (39 mils) (44)
+- 1.0 mm (39 mils) (36)
 - 1.3 mm (51 mils) (14)
-- 1.4 mm (55 mils) (34)
+- 1.4 mm (55 mils) (32)
+- 1.75 mm (69 mils) (8)
 - 2.7 mm (106 mils) (9)
 - 3.1 mm (122 mils) (4)
-- 4.0 mm (157 mils) (4)
 
 
 
