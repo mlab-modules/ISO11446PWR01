@@ -15,6 +15,7 @@ images:
 - doc/gen/ISO11446PWR01-schematic.svg
 - doc/gen/ISO11446PWR01-Signals output.svg
 - doc/gen/ISO11446PWR01-ISO11446 dummy load.svg
+- doc/gen/img/ISO11446PWR01-bottom.svg
 - doc/gen/img/ISO11446PWR01-top.svg
 issues: 2
 mark: 50
