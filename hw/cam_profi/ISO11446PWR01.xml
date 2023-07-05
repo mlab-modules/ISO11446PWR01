@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ISO11446PWR01.kicad_sch</source>
-    <date>Wed Jul  5 01:55:01 2023</date>
-    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
+    <date>Wed Jul  5 12:31:47 2023</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ISO11446PWR01</title>
@@ -120,8 +120,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>eff4be10-554d-4fb5-bd17-d52d00653083</tstamps>
     </comp>
@@ -131,8 +129,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>6f839d63-ff4f-4d22-8609-be75160407b5</tstamps>
     </comp>
@@ -142,8 +138,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>7491d0f5-aed6-4594-9255-ba1dbd1bc34b</tstamps>
     </comp>
@@ -153,8 +147,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>b30c21a2-d361-446f-8646-028fb1c1116f</tstamps>
     </comp>
@@ -164,8 +156,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>1eee322b-22c9-4b48-b771-c38551f1d9d6</tstamps>
     </comp>
@@ -175,8 +165,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>332a7599-1b16-4ec6-8ae5-ec4a05e116ef</tstamps>
     </comp>
@@ -186,8 +174,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>f79e6029-8dc2-425d-a84b-66938b1c4e62</tstamps>
     </comp>
@@ -197,8 +183,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>b459cf1f-2bf0-418b-bbd9-b03528af663b</tstamps>
     </comp>
@@ -208,8 +192,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>04590424-41c0-4a23-a5f5-0a7356777e4b</tstamps>
     </comp>
@@ -219,8 +201,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>1d61f5ab-ffa3-4dc4-85fe-12894564b525</tstamps>
     </comp>
@@ -230,8 +210,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>08c943eb-7b4b-487b-9f23-041068afe87f</tstamps>
     </comp>
@@ -241,8 +219,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>457be769-9637-4b4b-b5cd-5bc0ba407267</tstamps>
     </comp>
@@ -252,8 +228,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>bdc0af5b-efcd-4037-b368-742f9e24d892</tstamps>
     </comp>
@@ -263,8 +237,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>73c5cf70-08fa-4ff5-86dd-98e311d7b935</tstamps>
     </comp>
@@ -274,8 +246,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>2cdad194-1e5b-469d-8a2b-4e340057a2a8</tstamps>
     </comp>
@@ -285,8 +255,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>2fa29e48-dfa2-43f6-817a-7e62b3039a38</tstamps>
     </comp>
@@ -296,8 +264,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>f2fcfe25-ab6b-46b4-8d65-5dbd88ee993c</tstamps>
     </comp>
@@ -307,8 +273,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>ea862143-6265-41a9-8c2f-1d69890307ca</tstamps>
     </comp>
@@ -319,8 +283,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>70e56d02-150d-46d0-9642-faa27f0850dd</tstamps>
     </comp>
@@ -369,8 +331,6 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>31f13bd4-f1c6-4dd0-b419-4f1cb7e28f3e</tstamps>
     </comp>
@@ -380,8 +340,6 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>58ef1619-a7fe-49c1-8a0b-bdb9e49b1b6c</tstamps>
     </comp>
@@ -391,8 +349,6 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>bcccf317-247f-4030-99d0-286d7efd9bff</tstamps>
     </comp>
@@ -402,8 +358,6 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>5603b2ca-8f29-4cff-8924-4517c985df46</tstamps>
     </comp>
@@ -413,8 +367,6 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>b0606d39-139d-4b80-b93e-5c3bb7d235b7</tstamps>
     </comp>
@@ -424,8 +376,6 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>703a7f85-d601-4c6f-b539-ff78f0142149</tstamps>
     </comp>
@@ -435,8 +385,6 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>d626269f-f5e2-45b1-b569-c3b3cece64dc</tstamps>
     </comp>
@@ -446,8 +394,6 @@
       <libsource lib="header" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>87c8db7e-f86f-42a9-93c5-1077d29e6a1e</tstamps>
     </comp>
@@ -457,8 +403,6 @@
       <libsource lib="MLAB_HEADER" part="HEADER_2x07_PARALLEL" description="2x07 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="2x07 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="ki_keywords" value="2x07, header, connector, pinheader"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>f9cadbec-23eb-4afa-b9df-ac52aee78038</tstamps>
     </comp>
@@ -468,8 +412,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>c6b01caf-7a70-47c3-9869-8657b1c1ec12</tstamps>
     </comp>
@@ -479,8 +421,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>5f6b314e-bb02-41f4-ae08-9fe93c83cdd0</tstamps>
     </comp>
@@ -490,8 +430,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>25418213-b868-4fb3-aa1e-f70ef109e703</tstamps>
     </comp>
@@ -501,8 +439,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>1d21e765-3fd6-4eb6-a975-f845679e6bce</tstamps>
     </comp>
@@ -512,8 +448,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>80dd08ac-24de-4d7d-affa-5026cec04820</tstamps>
     </comp>
@@ -523,8 +457,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>1a4679d1-6268-4135-a8ad-6bacb7ea395b</tstamps>
     </comp>
@@ -534,8 +466,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>4e88c4c4-7925-48bc-a99b-3ed6f5deecd2</tstamps>
     </comp>
@@ -545,8 +475,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>41b705ea-5ece-43ff-b819-805523db87c5</tstamps>
     </comp>
@@ -556,8 +484,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>5b4a399d-ca3e-449f-8963-695a7a0e97c7</tstamps>
     </comp>
@@ -567,8 +493,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>486e94af-eee5-436a-ae3b-aa7f69cc19b9</tstamps>
     </comp>
@@ -578,8 +502,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>c8b23614-6575-464d-8973-f3fb3324012f</tstamps>
     </comp>
@@ -589,8 +511,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>9fab5b32-3269-4fff-b77e-8ff0e2caa720</tstamps>
     </comp>
@@ -600,8 +520,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>2149d779-fad5-4b58-8aa1-6c1322dc3a3b</tstamps>
     </comp>
@@ -611,8 +529,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>48dbe653-428e-4a02-b5eb-4e9a04dbaa8f</tstamps>
     </comp>
@@ -627,8 +543,6 @@
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
-      <property name="ki_keywords" value="NPN DC Optocoupler"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>d1b81448-c18b-417d-82ed-3521c7f0d1ed</tstamps>
     </comp>
@@ -643,8 +557,6 @@
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
-      <property name="ki_keywords" value="NPN DC Optocoupler"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>1f4fbe4b-c120-44df-937d-62c1610b4cff</tstamps>
     </comp>
@@ -659,8 +571,6 @@
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
-      <property name="ki_keywords" value="NPN DC Optocoupler"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>6a430bdb-8fba-403d-aaa4-99cf0b7117a3</tstamps>
     </comp>
@@ -675,8 +585,6 @@
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
-      <property name="ki_keywords" value="NPN DC Optocoupler"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>853a0529-2190-4679-9de9-704ada36d447</tstamps>
     </comp>
@@ -691,8 +599,6 @@
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
-      <property name="ki_keywords" value="NPN DC Optocoupler"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>26d35b57-eff7-4709-8dbf-65b3f02308aa</tstamps>
     </comp>
@@ -707,8 +613,6 @@
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
-      <property name="ki_keywords" value="NPN DC Optocoupler"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>cc59d72e-68a3-4277-8923-bcf7555193e6</tstamps>
     </comp>
@@ -723,8 +627,6 @@
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
-      <property name="ki_keywords" value="NPN DC Optocoupler"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>442ba59f-26d3-41da-86fe-2202ef0ec609</tstamps>
     </comp>
@@ -734,8 +636,6 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>56e4025a-b093-42f4-89cc-f5a1b36ad702</tstamps>
     </comp>
@@ -745,8 +645,6 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
-      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>b4f611dd-76fd-4b95-b91a-01f97a7682a6</tstamps>
     </comp>
@@ -756,8 +654,6 @@
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
-      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>6f4ce839-7547-4042-9153-d6e9b821c07f</tstamps>
     </comp>
@@ -767,8 +663,6 @@
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
-      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>2be8d294-df19-44df-ae91-9858f7777c07</tstamps>
     </comp>
@@ -779,8 +673,6 @@
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
-      <property name="ki_keywords" value="fuse"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>4de4a8b3-9046-477e-8a83-80207a312347</tstamps>
     </comp>
@@ -791,8 +683,6 @@
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
-      <property name="ki_keywords" value="fuse"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>a5a7cc0f-76f5-410c-82fb-4ea7703e6cb0</tstamps>
     </comp>
@@ -802,8 +692,6 @@
       <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>e72e28cd-0494-4d69-8128-1ae84831f0b6</tstamps>
     </comp>
@@ -813,8 +701,6 @@
       <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>b4d5a2f9-8cae-4bd1-a601-bbf0568c4092</tstamps>
     </comp>
@@ -824,8 +710,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>214cbe55-be26-4487-b983-11d90a24b616</tstamps>
     </comp>
@@ -835,8 +719,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>44d545b5-d56c-4662-9ef6-c035402e0bef</tstamps>
     </comp>
@@ -846,8 +728,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>5dcf644d-c45d-4538-87e5-ce99afbf4972</tstamps>
     </comp>
@@ -857,8 +737,6 @@
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>7a39b9ca-a161-4de3-936b-efe89d672a30</tstamps>
     </comp>
@@ -868,8 +746,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>f20fe380-efb4-4d68-9b7a-8f43dd30f931</tstamps>
     </comp>
@@ -879,8 +755,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>aea71ab0-f77b-4864-ab64-59f6e8eaf908</tstamps>
     </comp>
@@ -1176,67 +1050,67 @@
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(D2-K)">
+    <net code="10" name="Net-(D2-Pad1)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(D3-K)">
+    <net code="11" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(D4-K)">
+    <net code="12" name="Net-(D4-Pad1)">
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(D5-K)">
+    <net code="13" name="Net-(D5-Pad1)">
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(D6-K)">
+    <net code="14" name="Net-(D6-Pad1)">
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(D7-K)">
+    <net code="15" name="Net-(D7-Pad1)">
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(D8-K)">
+    <net code="16" name="Net-(D8-Pad1)">
       <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(D9-A)">
+    <net code="17" name="Net-(D9-Pad2)">
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(D10-A)">
+    <net code="18" name="Net-(D10-Pad2)">
       <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(F1-Pad2)">
+    <net code="19" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(F1-Pad2)">
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="J16" pin="3" pintype="input"/>
       <node ref="J16" pin="4" pintype="input"/>
       <node ref="J16" pin="5" pintype="input"/>
       <node ref="J16" pin="6" pintype="input"/>
     </net>
-    <net code="20" name="Net-(F3-Pad2)">
-      <node ref="F3" pin="2" pintype="passive"/>
-      <node ref="J18" pin="3" pintype="input"/>
-      <node ref="J18" pin="4" pintype="input"/>
-      <node ref="J18" pin="5" pintype="input"/>
-      <node ref="J18" pin="6" pintype="input"/>
-    </net>
-    <net code="21" name="Net-(J19-Pin_1)">
+    <net code="21" name="Net-(F3-Pad1)">
       <node ref="F3" pin="1" pintype="passive"/>
       <node ref="F5" pin="2" pintype="passive"/>
       <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(J20-Pin_1)">
-      <node ref="F1" pin="1" pintype="passive"/>
-      <node ref="F4" pin="1" pintype="passive"/>
-      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R23" pin="1" pintype="passive"/>
+    <net code="22" name="Net-(F3-Pad2)">
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="J18" pin="3" pintype="input"/>
+      <node ref="J18" pin="4" pintype="input"/>
+      <node ref="J18" pin="5" pintype="input"/>
+      <node ref="J18" pin="6" pintype="input"/>
     </net>
     <net code="23" name="Net-(R10-Pad2)">
       <node ref="R10" pin="2" pintype="passive"/>
