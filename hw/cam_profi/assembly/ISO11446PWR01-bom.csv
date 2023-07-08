@@ -1,0 +1,15 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id
+1,,C_Small-Device-ISM02A-rescue,C2,100nF,C_0805_2012Metric,1,,5c70984812875079b91f8bf2
+2,,C_Small-Device-ISM02A-rescue,C1,10uF,SMD-0805,1,,5c70984812875079b91f8bbe
+3,,D_ZENER-MLAB_D,D1,"BZV55C-5,6V",D_SMA,1,,5c70984512875079b91f88b2
+4,Light emitting diode,LED,D2D3D4D5D6D7D8D9D10,LED,LED_1206,9,~,
+5,Fuse,Fuse,F4F5,16A,Fuse-Keystone-3557-2,2,https://www.tme.eu/cz/details/keys3557-2/automobilni-pojistkova-pouzdra/keystone/3557-2/,
+6,"Resettable fuse, polymeric positive temperature coefficient",Polyfuse,F1F3,SD110-16,1812,2,~,
+7,"2x04 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x04_PARALLEL,J16J18,2x4,Straight_2x04,2,,
+8,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J14,3.3-5V,Straight_2x03,1,,
+9,"2x07 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x07_PARALLEL,J15,Signals,Straight_2x07,1,,
+10,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x01_Female,J1J2J3J4J5J6J7J8J9J10J11J13J19J20J21J22,WAGO 256-401,WAGO256,16,~,
+11,Resistor,R,R1R2R3R4R5R6R7,33R,R_Radial_Power_L13.0mm_W9.0mm_P5.00mm,7,~,
+12,Resistor,R,R10R11R14R15R19R20R21,510R,SMD-0805,7,~,
+13,Resistor,R,R8R9R12R13R16R17R18R22R23,1k,SMD-0805,9,~,
+14,"DC Optocoupler, Vce 35V, CTR 50%, SO-4",LTV-357T,U1U2U3U4U5U6U7,LTV-357T,SO-4_4.4x3.6mm_P2.54mm,7,https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf,5c70984412875079b91f8789
