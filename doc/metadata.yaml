@@ -15,11 +15,11 @@ images:
 - doc/gen/ISO11446PWR01-Power Output.svg
 - doc/gen/img/ISO11446PWR01-bottom.svg
 - doc/gen/img/ISO11446PWR01-top.svg
-- hw/cam_profi/docs/ISO11446PWR01A-assembly_page_01.svg
-- hw/cam_profi/docs/ISO11446PWR01A-assembly_page_02.svg
+- hw/cam_profi/assembly/ISO11446PWR01-assembly_page_01.svg
+- hw/cam_profi/assembly/ISO11446PWR01-assembly_page_02.svg
 issues: 2
 mark: 50
-mod_ibom: hw/cam_profi/ibom/ISO11446PWR01-ibom.html
+mod_ibom: hw/cam_profi/ISO11446PWR01-ibom.html
 mod_scheme: doc/gen/ISO11446PWR01-schematic.pdf
 tags:
 - 12v
