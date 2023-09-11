@@ -1837,7 +1837,7 @@
 </g>
 </g> 
 </g><g id="substrate-silk" style="fill:#0b1013; stroke:#0b1013;" mask="url(#pads-mask-silkscreen)"><g style="fill-opacity: 0.0;stroke-width: 0.1500;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
-<text x="157.3900" y="77.5083" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.1750" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U2</text>
+<text x="157.3900" y="77.5083" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U2</text>
 <g class="stroked-text"><desc>U2</desc>
 <path d="M158.1519 76.4632 L158.1519 77.2727 "/>
 <path d="M158.1519 77.2727 L158.1043 77.3679 "/>
@@ -1858,7 +1858,7 @@
 <path d="M156.5805 76.7489 L156.6281 76.8917 "/>
 <path d="M156.6281 76.8917 L157.1995 77.4632 "/>
 <path d="M157.1995 77.4632 L156.5805 77.4632 "/>
-</g><text x="157.3900" y="109.6393" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.1750" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U5</text>
+</g><text x="157.3900" y="109.6393" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U5</text>
 <g class="stroked-text"><desc>U5</desc>
 <path d="M158.1519 108.5942 L158.1519 109.4037 "/>
 <path d="M158.1519 109.4037 L158.1043 109.4989 "/>
@@ -1884,7 +1884,7 @@
 <path d="M156.7710 109.5942 L157.0090 109.5942 "/>
 <path d="M157.0090 109.5942 L157.1043 109.5465 "/>
 <path d="M157.1043 109.5465 L157.1519 109.4989 "/>
-</g><text x="162.9780" y="96.4830" transform="scale(-1 1) translate(-325.956000 0)" textLength="2.1750" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U4</text>
+</g><text x="162.9780" y="96.4830" transform="scale(-1 1) translate(-325.956000 0)" textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U4</text>
 <g class="stroked-text"><desc>U4</desc>
 <path d="M163.7399 95.4378 L163.7399 96.2473 "/>
 <path d="M163.7399 96.2473 L163.6923 96.3426 "/>
@@ -1901,7 +1901,7 @@
 </g></g>
 <g style="fill-opacity: 0.0;stroke-width: 0.3048;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
 <g transform="rotate(-90.000000 168.5580 110.8000)">
-<text x="168.5580" y="111.5620" transform="scale(-1 1) translate(-337.116000 0)" textLength="3.2149" font-size="2.0320" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">F3</text>
+<text x="168.5580" y="111.5620" transform="scale(-1 1) translate(-337.116000 0)" textLength="3.3673" font-size="2.0320" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">F3</text>
 </g>
 <g class="stroked-text"><desc>F3</desc>
 <path d="M168.4489 110.2920 L168.4489 109.7840 "/>
@@ -1921,7 +1921,7 @@
 <path d="M169.2472 111.1629 L169.1746 111.0177 "/>
 <path d="M169.1746 111.0177 L169.1020 110.9451 "/>
 </g><g transform="rotate(-90.000000 175.3040 110.8000)">
-<text x="175.3040" y="111.5620" transform="scale(-1 1) translate(-350.608000 0)" textLength="3.2149" font-size="2.0320" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">F1</text>
+<text x="175.3040" y="111.5620" transform="scale(-1 1) translate(-350.608000 0)" textLength="3.3673" font-size="2.0320" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">F1</text>
 </g>
 <g class="stroked-text"><desc>F1</desc>
 <path d="M175.1949 110.2920 L175.1949 109.7840 "/>
@@ -1935,7 +1935,7 @@
 </g></g>
 <g style="fill-opacity: 0.0;stroke-width: 0.1500;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
 <g transform="rotate(-90.000000 175.3790 88.6281)">
-<text x="175.3790" y="89.1281" transform="scale(-1 1) translate(-350.757960 0)" textLength="2.1274" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">C2</text>
+<text x="175.3790" y="89.1281" transform="scale(-1 1) translate(-350.757960 0)" textLength="2.2024" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">C2</text>
 </g>
 <g class="stroked-text"><desc>C2</desc>
 <path d="M175.7386 88.4614 L175.7862 88.4138 "/>
@@ -1964,7 +1964,7 @@
 <path d="M175.2624 89.3662 L175.8338 88.7948 "/>
 <path d="M175.8338 88.7948 L175.8338 89.4138 "/>
 </g><g transform="rotate(-90.000000 182.4960 86.9660)">
-<text x="182.4960" y="87.4660" transform="scale(-1 1) translate(-364.992000 0)" textLength="2.1274" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">D1</text>
+<text x="182.4960" y="87.4660" transform="scale(-1 1) translate(-364.992000 0)" textLength="2.2024" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">D1</text>
 </g>
 <g class="stroked-text"><desc>D1</desc>
 <path d="M182.9508 86.2279 L181.9508 86.2279 "/>
@@ -1984,7 +1984,7 @@
 <path d="M181.9508 87.4660 L182.0937 87.3708 "/>
 <path d="M182.0937 87.3708 L182.1889 87.2755 "/>
 <path d="M182.1889 87.2755 L182.2365 87.1803 "/>
-</g><text x="163.5117" y="87.8999" transform="scale(-1 1) translate(-327.023388 0)" textLength="2.1750" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U3</text>
+</g><text x="163.5117" y="87.8999" transform="scale(-1 1) translate(-327.023388 0)" textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U3</text>
 <g class="stroked-text"><desc>U3</desc>
 <path d="M164.2736 86.8547 L164.2736 87.6643 "/>
 <path d="M164.2736 87.6643 L164.2260 87.7595 "/>
@@ -2008,7 +2008,7 @@
 <path d="M162.8926 87.8547 L163.1784 87.8547 "/>
 <path d="M163.1784 87.8547 L163.2736 87.8071 "/>
 <path d="M163.2736 87.8071 L163.3212 87.7595 "/>
-</g><text x="157.3900" y="120.3497" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.1750" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U6</text>
+</g><text x="157.3900" y="120.3497" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U6</text>
 <g class="stroked-text"><desc>U6</desc>
 <path d="M158.1519 119.3045 L158.1519 120.1140 "/>
 <path d="M158.1519 120.1140 L158.1043 120.2092 "/>
@@ -2040,7 +2040,7 @@
 <path d="M156.9614 119.6854 L157.0567 119.7331 "/>
 <path d="M157.0567 119.7331 L157.1043 119.7807 "/>
 <path d="M157.1043 119.7807 L157.1519 119.8759 "/>
-</g><text x="157.3900" y="66.7980" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.1750" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U1</text>
+</g><text x="157.3900" y="66.7980" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U1</text>
 <g class="stroked-text"><desc>U1</desc>
 <path d="M158.1519 65.7528 L158.1519 66.5623 "/>
 <path d="M158.1519 66.5623 L158.1043 66.6576 "/>
@@ -2056,7 +2056,7 @@
 <path d="M156.8662 65.7528 L156.9614 65.8957 "/>
 <path d="M156.9614 65.8957 L157.0567 65.9909 "/>
 <path d="M157.0567 65.9909 L157.1519 66.0385 "/>
-</g><text x="157.3900" y="131.0600" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.1750" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U7</text>
+</g><text x="157.3900" y="131.0600" transform="scale(-1 1) translate(-314.780000 0)" textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">U7</text>
 <g class="stroked-text"><desc>U7</desc>
 <path d="M158.1519 130.0148 L158.1519 130.8243 "/>
 <path d="M158.1519 130.8243 L158.1043 130.9196 "/>
