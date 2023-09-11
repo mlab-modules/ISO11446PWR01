@@ -9,10 +9,10 @@ image: doc/gen/img/ISO11446PWR01-bottom.png
 images:
 - doc/gen/img/ISO11446PWR01-bottom.png
 - doc/gen/img/ISO11446PWR01-top.png
-- doc/gen/ISO11446PWR01-schematic.svg
 - doc/gen/ISO11446PWR01-Signals output.svg
-- doc/gen/ISO11446PWR01-ISO11446 dummy load.svg
+- doc/gen/ISO11446PWR01-schematic.svg
 - doc/gen/ISO11446PWR01-Power Output.svg
+- doc/gen/ISO11446PWR01-ISO11446 dummy load.svg
 - doc/gen/img/ISO11446PWR01-bottom.svg
 - doc/gen/img/ISO11446PWR01-top.svg
 - hw/cam_profi/assembly/ISO11446PWR01-assembly_page_01.svg
@@ -39,4 +39,4 @@ tags:
 - mlab-kicad
 - pcb
 title: ISO11446PWR01
-updated: '2023-07-21T03:39:35.501951+00:00'
+updated: '2023-09-11T01:14:15.485613+00:00'
