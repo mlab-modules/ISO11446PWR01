@@ -5,7 +5,7 @@ github_branches:
 github_repo: ISO11446PWR01
 github_url: https://github.com/mlab-modules/ISO11446PWR01
 homepage: false
-image: doc/gen/img/ISO11446PWR01-bottom.png
+image_title: doc/gen/img/ISO11446PWR01-bottom.png
 images:
 - doc/gen/img/ISO11446PWR01-bottom.png
 - doc/gen/img/ISO11446PWR01-top.png
