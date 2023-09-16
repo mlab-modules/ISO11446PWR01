@@ -21,6 +21,7 @@ issues: 2
 mark: 50
 mod_ibom: hw/cam_profi/ISO11446PWR01-ibom.html
 mod_scheme: doc/gen/ISO11446PWR01-schematic.pdf
+status: 0
 tags:
 - 12v
 - car
