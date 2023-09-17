@@ -2,6 +2,7 @@ description: Car trailer emulator for use trailer socket as a power source
 github_branch: ISO11446PWR01A
 github_branches:
 - ISO11446PWR01A
+github_description: Car trailer emulator for use trailer socket as a power source
 github_repo: ISO11446PWR01
 github_url: https://github.com/mlab-modules/ISO11446PWR01
 homepage: false
@@ -40,4 +41,4 @@ tags:
 - mlab-kicad
 - pcb
 title: ISO11446PWR01
-updated: '2023-09-16T22:01:40.395063+00:00'
+updated: '2023-09-17T11:43:25.585286+00:00'
