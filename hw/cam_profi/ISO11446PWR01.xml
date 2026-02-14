@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/ISO11446PWR01.kicad_sch</source>
-    <date>Sun Sep 17 11:47:10 2023</date>
-    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
+    <date>2026-02-14T13:22:29+0000</date>
+    <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ISO11446PWR01</title>
@@ -81,6 +81,11 @@
     <comp ref="M1">
       <value>HOLE M3</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
@@ -90,6 +95,11 @@
     <comp ref="M2">
       <value>HOLE M3</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
@@ -99,6 +109,11 @@
     <comp ref="M3">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
@@ -108,6 +123,11 @@
     <comp ref="M4">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="mlab-default-rescue" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ISO11446PWR01.kicad_sch"/>
@@ -117,198 +137,306 @@
     <comp ref="J1">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>eff4be10-554d-4fb5-bd17-d52d00653083</tstamps>
     </comp>
     <comp ref="J2">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>6f839d63-ff4f-4d22-8609-be75160407b5</tstamps>
     </comp>
     <comp ref="J3">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>7491d0f5-aed6-4594-9255-ba1dbd1bc34b</tstamps>
     </comp>
     <comp ref="J4">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>b30c21a2-d361-446f-8646-028fb1c1116f</tstamps>
     </comp>
     <comp ref="J5">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>1eee322b-22c9-4b48-b771-c38551f1d9d6</tstamps>
     </comp>
     <comp ref="J6">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>332a7599-1b16-4ec6-8ae5-ec4a05e116ef</tstamps>
     </comp>
     <comp ref="J7">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>f79e6029-8dc2-425d-a84b-66938b1c4e62</tstamps>
     </comp>
     <comp ref="J8">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>b459cf1f-2bf0-418b-bbd9-b03528af663b</tstamps>
     </comp>
     <comp ref="J9">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>04590424-41c0-4a23-a5f5-0a7356777e4b</tstamps>
     </comp>
     <comp ref="J10">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>1d61f5ab-ffa3-4dc4-85fe-12894564b525</tstamps>
     </comp>
     <comp ref="J11">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>08c943eb-7b4b-487b-9f23-041068afe87f</tstamps>
     </comp>
     <comp ref="J13">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>457be769-9637-4b4b-b5cd-5bc0ba407267</tstamps>
     </comp>
     <comp ref="R1">
       <value>33R</value>
       <footprint>Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>bdc0af5b-efcd-4037-b368-742f9e24d892</tstamps>
     </comp>
     <comp ref="R2">
       <value>33R</value>
       <footprint>Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>73c5cf70-08fa-4ff5-86dd-98e311d7b935</tstamps>
     </comp>
     <comp ref="R3">
       <value>33R</value>
       <footprint>Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>2cdad194-1e5b-469d-8a2b-4e340057a2a8</tstamps>
     </comp>
     <comp ref="R4">
       <value>33R</value>
       <footprint>Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>2fa29e48-dfa2-43f6-817a-7e62b3039a38</tstamps>
     </comp>
     <comp ref="R5">
       <value>33R</value>
       <footprint>Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>f2fcfe25-ab6b-46b4-8d65-5dbd88ee993c</tstamps>
     </comp>
     <comp ref="R6">
       <value>33R</value>
       <footprint>Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>ea862143-6265-41a9-8c2f-1d69890307ca</tstamps>
     </comp>
@@ -316,11 +444,16 @@
       <value>33R</value>
       <footprint>Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</footprint>
       <datasheet>https://www.tme.eu/cz/details/ax5wv-33r/vykonne-rezistory/royal-ohm/prm05wjw330b00/</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm</field>
+        <field name="Datasheet">https://www.tme.eu/cz/details/ax5wv-33r/vykonne-rezistory/royal-ohm/prm05wjw330b00/</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="ISO11446 dummy load"/>
       <property name="Sheetfile" value="ISO11446.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/ISO11446 dummy load/" tstamps="/79cc698f-ee2f-4fbc-b977-bae81ed242f4/"/>
       <tstamps>70e56d02-150d-46d0-9642-faa27f0850dd</tstamps>
     </comp>
@@ -329,11 +462,15 @@
       <footprint>Mlab_C:SMD-0805</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="Footprint">Mlab_C:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>f02e9e89-c9db-44d0-9c2e-10ceda53e04e</tstamps>
     </comp>
@@ -342,11 +479,15 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>dd442f4b-1bf9-4706-8815-a6c0ec41ab28</tstamps>
     </comp>
@@ -355,98 +496,148 @@
       <footprint>Diode_SMD:D_SMA</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f88b2</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="ISM02A-rescue" part="D_ZENER-MLAB_D" description=""/>
       <property name="UST_ID" value="5c70984512875079b91f88b2"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
+      <property name="ki_fp_filters" value="D? SO* SM*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>a31e7ed0-a85d-4cdb-80cc-2a23123e0091</tstamps>
     </comp>
     <comp ref="D2">
       <value>LED</value>
       <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>31f13bd4-f1c6-4dd0-b419-4f1cb7e28f3e</tstamps>
     </comp>
     <comp ref="D3">
       <value>LED</value>
       <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>58ef1619-a7fe-49c1-8a0b-bdb9e49b1b6c</tstamps>
     </comp>
     <comp ref="D4">
       <value>LED</value>
       <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>bcccf317-247f-4030-99d0-286d7efd9bff</tstamps>
     </comp>
     <comp ref="D5">
       <value>LED</value>
       <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>5603b2ca-8f29-4cff-8924-4517c985df46</tstamps>
     </comp>
     <comp ref="D6">
       <value>LED</value>
       <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>b0606d39-139d-4b80-b93e-5c3bb7d235b7</tstamps>
     </comp>
     <comp ref="D7">
       <value>LED</value>
       <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>703a7f85-d601-4c6f-b539-ff78f0142149</tstamps>
     </comp>
     <comp ref="D8">
       <value>LED</value>
       <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>d626269f-f5e2-45b1-b569-c3b3cece64dc</tstamps>
     </comp>
     <comp ref="J14">
       <value>3.3-5V</value>
       <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x03</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="header" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>87c8db7e-f86f-42a9-93c5-1077d29e6a1e</tstamps>
@@ -454,10 +645,14 @@
     <comp ref="J15">
       <value>Signals</value>
       <footprint>Mlab_Pin_Headers:Straight_2x07</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x07</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_HEADER" part="HEADER_2x07_PARALLEL" description="2x07 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="2x07 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="ki_keywords" value="2x07, header, connector, pinheader"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>f9cadbec-23eb-4afa-b9df-ac52aee78038</tstamps>
@@ -465,154 +660,238 @@
     <comp ref="R8">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>c6b01caf-7a70-47c3-9869-8657b1c1ec12</tstamps>
     </comp>
     <comp ref="R9">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>5f6b314e-bb02-41f4-ae08-9fe93c83cdd0</tstamps>
     </comp>
     <comp ref="R10">
       <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>25418213-b868-4fb3-aa1e-f70ef109e703</tstamps>
     </comp>
     <comp ref="R11">
       <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>1d21e765-3fd6-4eb6-a975-f845679e6bce</tstamps>
     </comp>
     <comp ref="R12">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>80dd08ac-24de-4d7d-affa-5026cec04820</tstamps>
     </comp>
     <comp ref="R13">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>1a4679d1-6268-4135-a8ad-6bacb7ea395b</tstamps>
     </comp>
     <comp ref="R14">
       <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>4e88c4c4-7925-48bc-a99b-3ed6f5deecd2</tstamps>
     </comp>
     <comp ref="R15">
       <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>41b705ea-5ece-43ff-b819-805523db87c5</tstamps>
     </comp>
     <comp ref="R16">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>5b4a399d-ca3e-449f-8963-695a7a0e97c7</tstamps>
     </comp>
     <comp ref="R17">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>486e94af-eee5-436a-ae3b-aa7f69cc19b9</tstamps>
     </comp>
     <comp ref="R18">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>c8b23614-6575-464d-8973-f3fb3324012f</tstamps>
     </comp>
     <comp ref="R19">
       <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>9fab5b32-3269-4fff-b77e-8ff0e2caa720</tstamps>
     </comp>
     <comp ref="R20">
       <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>2149d779-fad5-4b58-8aa1-6c1322dc3a3b</tstamps>
     </comp>
     <comp ref="R21">
       <value>510R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>48dbe653-428e-4a02-b5eb-4e9a04dbaa8f</tstamps>
     </comp>
@@ -622,13 +901,16 @@
       <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8789</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x3.6mm_P2.54mm</field>
+        <field name="Datasheet">https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="ki_keywords" value="NPN DC Optocoupler"/>
+      <property name="ki_fp_filters" value="SO*4.4x3.6mm*P2.54mm*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>d1b81448-c18b-417d-82ed-3521c7f0d1ed</tstamps>
     </comp>
@@ -638,13 +920,16 @@
       <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8789</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x3.6mm_P2.54mm</field>
+        <field name="Datasheet">https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="ki_keywords" value="NPN DC Optocoupler"/>
+      <property name="ki_fp_filters" value="SO*4.4x3.6mm*P2.54mm*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>1f4fbe4b-c120-44df-937d-62c1610b4cff</tstamps>
     </comp>
@@ -654,13 +939,16 @@
       <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8789</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x3.6mm_P2.54mm</field>
+        <field name="Datasheet">https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="ki_keywords" value="NPN DC Optocoupler"/>
+      <property name="ki_fp_filters" value="SO*4.4x3.6mm*P2.54mm*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>6a430bdb-8fba-403d-aaa4-99cf0b7117a3</tstamps>
     </comp>
@@ -670,13 +958,16 @@
       <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8789</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x3.6mm_P2.54mm</field>
+        <field name="Datasheet">https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="ki_keywords" value="NPN DC Optocoupler"/>
+      <property name="ki_fp_filters" value="SO*4.4x3.6mm*P2.54mm*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>853a0529-2190-4679-9de9-704ada36d447</tstamps>
     </comp>
@@ -686,13 +977,16 @@
       <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8789</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x3.6mm_P2.54mm</field>
+        <field name="Datasheet">https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="ki_keywords" value="NPN DC Optocoupler"/>
+      <property name="ki_fp_filters" value="SO*4.4x3.6mm*P2.54mm*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>26d35b57-eff7-4709-8dbf-65b3f02308aa</tstamps>
     </comp>
@@ -702,13 +996,16 @@
       <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8789</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x3.6mm_P2.54mm</field>
+        <field name="Datasheet">https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="ki_keywords" value="NPN DC Optocoupler"/>
+      <property name="ki_fp_filters" value="SO*4.4x3.6mm*P2.54mm*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>cc59d72e-68a3-4277-8923-bcf7555193e6</tstamps>
     </comp>
@@ -718,57 +1015,84 @@
       <datasheet>https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8789</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x3.6mm_P2.54mm</field>
+        <field name="Datasheet">https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Isolator" part="LTV-357T" description="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="UST_ID" value="5c70984412875079b91f8789"/>
       <property name="Sheetname" value="Signals output"/>
       <property name="Sheetfile" value="signals.kicad_sch"/>
-      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SO-4"/>
       <property name="ki_keywords" value="NPN DC Optocoupler"/>
+      <property name="ki_fp_filters" value="SO*4.4x3.6mm*P2.54mm*"/>
       <sheetpath names="/Signals output/" tstamps="/d856896b-27de-4069-a596-f6babe8e4faa/"/>
       <tstamps>442ba59f-26d3-41da-86fe-2202ef0ec609</tstamps>
     </comp>
     <comp ref="D9">
       <value>LED</value>
       <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>56e4025a-b093-42f4-89cc-f5a1b36ad702</tstamps>
     </comp>
     <comp ref="D10">
       <value>LED</value>
       <footprint>Mlab_D:LED_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_D:LED_1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>b4f611dd-76fd-4b95-b91a-01f97a7682a6</tstamps>
     </comp>
     <comp ref="F1">
       <value>SD110-16</value>
       <footprint>Mlab_F:1812</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_F:1812</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>6f4ce839-7547-4042-9153-d6e9b821c07f</tstamps>
     </comp>
     <comp ref="F3">
       <value>SD110-16</value>
       <footprint>Mlab_F:1812</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_F:1812</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>2be8d294-df19-44df-ae91-9858f7777c07</tstamps>
     </comp>
@@ -776,11 +1100,16 @@
       <value>16A</value>
       <footprint>Mlab_CON:Fuse-Keystone-3557-2</footprint>
       <datasheet>https://www.tme.eu/cz/details/keys3557-2/automobilni-pojistkova-pouzdra/keystone/3557-2/</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:Fuse-Keystone-3557-2</field>
+        <field name="Datasheet">https://www.tme.eu/cz/details/keys3557-2/automobilni-pojistkova-pouzdra/keystone/3557-2/</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
       <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>4de4a8b3-9046-477e-8a83-80207a312347</tstamps>
     </comp>
@@ -788,21 +1117,30 @@
       <value>16A</value>
       <footprint>Mlab_CON:Fuse-Keystone-3557-2</footprint>
       <datasheet>https://www.tme.eu/cz/details/keys3557-2/automobilni-pojistkova-pouzdra/keystone/3557-2/</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:Fuse-Keystone-3557-2</field>
+        <field name="Datasheet">https://www.tme.eu/cz/details/keys3557-2/automobilni-pojistkova-pouzdra/keystone/3557-2/</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
       <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>a5a7cc0f-76f5-410c-82fb-4ea7703e6cb0</tstamps>
     </comp>
     <comp ref="J16">
       <value>2x4</value>
       <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x04</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>e72e28cd-0494-4d69-8128-1ae84831f0b6</tstamps>
@@ -810,10 +1148,14 @@
     <comp ref="J18">
       <value>2x4</value>
       <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x04</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>b4d5a2f9-8cae-4bd1-a601-bbf0568c4092</tstamps>
@@ -821,66 +1163,102 @@
     <comp ref="J19">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>214cbe55-be26-4487-b983-11d90a24b616</tstamps>
     </comp>
     <comp ref="J20">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>44d545b5-d56c-4662-9ef6-c035402e0bef</tstamps>
     </comp>
     <comp ref="J21">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>5dcf644d-c45d-4538-87e5-ce99afbf4972</tstamps>
     </comp>
     <comp ref="J22">
       <value>WAGO 256-401</value>
       <footprint>Mlab_CON:WAGO256</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_CON:WAGO256</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>7a39b9ca-a161-4de3-936b-efe89d672a30</tstamps>
     </comp>
     <comp ref="R22">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>f20fe380-efb4-4d68-9b7a-8f43dd30f931</tstamps>
     </comp>
     <comp ref="R23">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power Output"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Power Output/" tstamps="/241c7625-1ff5-4493-b8d3-af61ba1e3437/"/>
       <tstamps>aea71ab0-f77b-4864-ab64-59f6e8eaf908</tstamps>
     </comp>
@@ -895,7 +1273,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x01_Female</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -910,7 +1290,9 @@
       <fields>
         <field name="Reference">F</field>
         <field name="Value">Fuse</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Fuse</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -928,7 +1310,9 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">LED</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -945,7 +1329,9 @@
       <fields>
         <field name="Reference">F</field>
         <field name="Value">Polyfuse</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Resettable fuse, polymeric positive temperature coefficient</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -961,7 +1347,9 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -975,6 +1363,9 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C_Small-Device-ISM02A-rescue</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -990,6 +1381,9 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">D_ZENER-MLAB_D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -1007,6 +1401,7 @@
         <field name="Value">LTV-357T</field>
         <field name="Footprint">Package_SO:SO-4_4.4x3.6mm_P2.54mm</field>
         <field name="Datasheet">https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf</field>
+        <field name="Description">DC Optocoupler, Vce 35V, CTR 50%, SO-4</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1020,6 +1415,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HEADER_2x04_PARALLEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x04 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -1037,6 +1435,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HEADER_2x07_PARALLEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x07 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -1060,6 +1461,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HEADER_2x03_PARALLEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x03 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -1074,6 +1478,9 @@
       <fields>
         <field name="Reference">M</field>
         <field name="Value">HOLE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -1092,7 +1499,7 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+5V">
+    <net code="1" name="+5V" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
@@ -1106,15 +1513,15 @@
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="2" name="12V_Permanent">
+    <net code="2" name="12V_Permanent" class="Default">
       <node ref="F5" pin="1" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="3" name="12V_Switched">
+    <net code="3" name="12V_Switched" class="Default">
       <node ref="F4" pin="2" pintype="passive"/>
       <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="4" name="Earth">
+    <net code="4" name="Earth" class="Default">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
@@ -1131,7 +1538,7 @@
       <node ref="U6" pin="2" pintype="passive"/>
       <node ref="U7" pin="2" pintype="passive"/>
     </net>
-    <net code="5" name="GND">
+    <net code="5" name="GND" class="Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
@@ -1147,7 +1554,7 @@
       <node ref="U6" pin="3" pintype="passive"/>
       <node ref="U7" pin="3" pintype="passive"/>
     </net>
-    <net code="6" name="GND_Permanent">
+    <net code="6" name="GND_Permanent" class="Default">
       <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J18" pin="1" pintype="input"/>
@@ -1156,7 +1563,7 @@
       <node ref="J18" pin="8" pintype="input"/>
       <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="7" name="GND_Switched">
+    <net code="7" name="GND_Switched" class="Default">
       <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J16" pin="1" pintype="input"/>
@@ -1165,183 +1572,183 @@
       <node ref="J16" pin="8" pintype="input"/>
       <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="8" name="Left_Turn_Signal">
+    <net code="8" name="Left_Turn_Signal" class="Default">
       <node ref="J15" pin="1" pintype="input"/>
       <node ref="J15" pin="2" pintype="input"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pintype="passive"/>
     </net>
-    <net code="9" name="Left_Turn_Signal_Lamp">
+    <net code="9" name="Left_Turn_Signal_Lamp" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(D2-K)">
+    <net code="10" name="Net-(D2-K)" class="Default">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(D3-K)">
+    <net code="11" name="Net-(D3-K)" class="Default">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(D4-K)">
+    <net code="12" name="Net-(D4-K)" class="Default">
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(D5-K)">
+    <net code="13" name="Net-(D5-K)" class="Default">
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(D6-K)">
+    <net code="14" name="Net-(D6-K)" class="Default">
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(D7-K)">
+    <net code="15" name="Net-(D7-K)" class="Default">
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(D8-K)">
+    <net code="16" name="Net-(D8-K)" class="Default">
       <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(D9-A)">
+    <net code="17" name="Net-(D9-A)" class="Default">
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(D10-A)">
+    <net code="18" name="Net-(D10-A)" class="Default">
       <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(F1-Pad2)">
+    <net code="19" name="Net-(F1-Pad2)" class="Default">
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="J16" pin="3" pintype="input"/>
       <node ref="J16" pin="4" pintype="input"/>
       <node ref="J16" pin="5" pintype="input"/>
       <node ref="J16" pin="6" pintype="input"/>
     </net>
-    <net code="20" name="Net-(F3-Pad2)">
+    <net code="20" name="Net-(F3-Pad2)" class="Default">
       <node ref="F3" pin="2" pintype="passive"/>
       <node ref="J18" pin="3" pintype="input"/>
       <node ref="J18" pin="4" pintype="input"/>
       <node ref="J18" pin="5" pintype="input"/>
       <node ref="J18" pin="6" pintype="input"/>
     </net>
-    <net code="21" name="Net-(J19-Pin_1)">
+    <net code="21" name="Net-(J19-Pin_1)" class="Default">
       <node ref="F3" pin="1" pintype="passive"/>
       <node ref="F5" pin="2" pintype="passive"/>
       <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(J20-Pin_1)">
+    <net code="22" name="Net-(J20-Pin_1)" class="Default">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="F4" pin="1" pintype="passive"/>
       <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(R10-Pad2)">
+    <net code="23" name="Net-(R10-Pad2)" class="Default">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(R11-Pad2)">
+    <net code="24" name="Net-(R11-Pad2)" class="Default">
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U2" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(R14-Pad2)">
+    <net code="25" name="Net-(R14-Pad2)" class="Default">
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="U3" pin="1" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(R15-Pad2)">
+    <net code="26" name="Net-(R15-Pad2)" class="Default">
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="U4" pin="1" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(R19-Pad2)">
+    <net code="27" name="Net-(R19-Pad2)" class="Default">
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U5" pin="1" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(R20-Pad2)">
+    <net code="28" name="Net-(R20-Pad2)" class="Default">
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U6" pin="1" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(R21-Pad2)">
+    <net code="29" name="Net-(R21-Pad2)" class="Default">
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="U7" pin="1" pintype="passive"/>
     </net>
-    <net code="30" name="Rear_Fog_Lamps">
+    <net code="30" name="Rear_Fog_Lamps" class="Default">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="31" name="Rear_Fog_Signal">
+    <net code="31" name="Rear_Fog_Signal" class="Default">
       <node ref="J15" pin="3" pintype="input"/>
       <node ref="J15" pin="4" pintype="input"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pintype="passive"/>
     </net>
-    <net code="32" name="Reversing_Lamps">
+    <net code="32" name="Reversing_Lamps" class="Default">
       <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="33" name="Reversing_Signal">
+    <net code="33" name="Reversing_Signal" class="Default">
       <node ref="J15" pin="13" pintype="input"/>
       <node ref="J15" pin="14" pintype="input"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U7" pin="4" pintype="passive"/>
     </net>
-    <net code="34" name="Right_Turn_Signal">
+    <net code="34" name="Right_Turn_Signal" class="Default">
       <node ref="J15" pin="5" pintype="input"/>
       <node ref="J15" pin="6" pintype="input"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="U3" pin="4" pintype="passive"/>
     </net>
-    <net code="35" name="Right_Turn_Signal_Lamp">
+    <net code="35" name="Right_Turn_Signal_Lamp" class="Default">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="36" name="Stop_Lamps">
+    <net code="36" name="Stop_Lamps" class="Default">
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="37" name="Stop_Signal">
+    <net code="37" name="Stop_Signal" class="Default">
       <node ref="J15" pin="10" pintype="input"/>
       <node ref="J15" pin="9" pintype="input"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U5" pin="4" pintype="passive"/>
     </net>
-    <net code="38" name="Tail_Lamps_Left">
+    <net code="38" name="Tail_Lamps_Left" class="Default">
       <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="39" name="Tail_Lamps_Left_Signal">
+    <net code="39" name="Tail_Lamps_Left_Signal" class="Default">
       <node ref="J15" pin="11" pintype="input"/>
       <node ref="J15" pin="12" pintype="input"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U6" pin="4" pintype="passive"/>
     </net>
-    <net code="40" name="Tail_Lamps_Right">
+    <net code="40" name="Tail_Lamps_Right" class="Default">
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="41" name="Tail_Lamps_Right_Signal">
+    <net code="41" name="Tail_Lamps_Right_Signal" class="Default">
       <node ref="J15" pin="7" pintype="input"/>
       <node ref="J15" pin="8" pintype="input"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="U4" pin="4" pintype="passive"/>
     </net>
-    <net code="42" name="unconnected-(M1-Pad1)">
+    <net code="42" name="unconnected-(M1-Pad1)" class="Default">
       <node ref="M1" pin="1" pintype="input+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(M2-Pad1)">
+    <net code="43" name="unconnected-(M2-Pad1)" class="Default">
       <node ref="M2" pin="1" pintype="input+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(M3-Pad1)">
+    <net code="44" name="unconnected-(M3-Pad1)" class="Default">
       <node ref="M3" pin="1" pintype="input+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(M4-Pad1)">
+    <net code="45" name="unconnected-(M4-Pad1)" class="Default">
       <node ref="M4" pin="1" pintype="input+no_connect"/>
     </net>
   </nets>
