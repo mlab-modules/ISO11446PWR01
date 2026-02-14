@@ -1,483 +1,554 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4)
-
-  (paper "A4")
-
-  (title_block
-    (title "ISO11446PWR01")
-    (date "%d. %m. %Y")
-    (rev "A")
-    (company "Mlab www.mlab.cz")
-    (comment 1 "Car trailer emulator and\\nPower source with signals output")
-  )
-
-  (lib_symbols
-    (symbol "mlab-default-rescue:HOLE" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "M" (id 0) (at 0 2.54 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "HOLE" (id 1) (at 0 -2.54 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (symbol "HOLE_0_1"
-        (circle (center 0 0) (radius 0.635)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "HOLE_1_1"
-        (pin input line (at 1.27 0 180) (length 0.635)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (no_connect (at 274.32 19.05) (uuid 66df13f9-0eb7-44ae-bcc0-8043429c4ffa))
-  (no_connect (at 259.08 19.05) (uuid 6983f8b6-86a6-4349-a00c-0e2ff2297b34))
-  (no_connect (at 269.24 19.05) (uuid 9c969fad-cebd-4313-9f06-2f4e6d55911e))
-  (no_connect (at 264.16 19.05) (uuid a10beb2d-dad6-4b7e-ab42-58626c7a268e))
-
-  (polyline (pts (xy 281.94 16.51) (xy 281.94 26.67))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 523c8c65-31d0-4cca-8782-1c8c5e03e680)
-  )
-  (polyline (pts (xy 281.94 26.67) (xy 256.54 26.67))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7a33bee4-c0d9-4b67-867e-3df207d51e36)
-  )
-  (polyline (pts (xy 256.54 26.67) (xy 256.54 16.51))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a6423cd7-7ec6-4d1e-b0bf-2a4a4a532b08)
-  )
-  (polyline (pts (xy 256.54 16.51) (xy 281.94 16.51))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d6ddd7a6-b56d-41ba-a72a-e71723aa4e5a)
-  )
-
-  (text "MOUNTING HOLES" (at 256.54 26.67 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 55e4c3d7-95bf-4bdc-9550-fe1ef46712f8)
-  )
-
-  (symbol (lib_id "mlab-default-rescue:HOLE") (at 259.08 20.32 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-0000549d7549)
-    (property "Reference" "M1" (id 0) (at 259.08 22.86 90)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "HOLE M3" (id 1) (at 261.62 20.32 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Mlab_Mechanical:MountingHole_3mm" (id 2) (at 259.08 20.32 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 259.08 20.32 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (pin "1" (uuid 81617ad2-3e05-4e97-8178-dddb279fd3a9))
-  )
-
-  (symbol (lib_id "mlab-default-rescue:HOLE") (at 264.16 20.32 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-0000549d7628)
-    (property "Reference" "M2" (id 0) (at 264.16 22.86 90)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "HOLE M3" (id 1) (at 266.7 20.32 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Mlab_Mechanical:MountingHole_3mm" (id 2) (at 264.16 20.32 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 264.16 20.32 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (pin "1" (uuid 2113e415-32f5-4dc9-9c35-c69e23c1da1d))
-  )
-
-  (symbol (lib_id "mlab-default-rescue:HOLE") (at 269.24 20.32 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-0000549d7646)
-    (property "Reference" "M3" (id 0) (at 269.24 22.86 90)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "HOLE" (id 1) (at 271.78 20.32 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Mlab_Mechanical:MountingHole_3mm" (id 2) (at 269.24 20.32 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 269.24 20.32 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (pin "1" (uuid 4d251f4e-f244-484e-b93f-196cde01147f))
-  )
-
-  (symbol (lib_id "mlab-default-rescue:HOLE") (at 274.32 20.32 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-0000549d7665)
-    (property "Reference" "M4" (id 0) (at 274.32 22.86 90)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "HOLE" (id 1) (at 276.86 20.32 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Mlab_Mechanical:MountingHole_3mm" (id 2) (at 274.32 20.32 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 274.32 20.32 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (pin "1" (uuid 3631a353-ef28-46b4-b1a6-dced13eb85ca))
-  )
-
-  (sheet (at 104.14 97.79) (size 20.32 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 241c7625-1ff5-4493-b8d3-af61ba1e3437)
-    (property "Sheet name" "Power Output" (id 0) (at 104.14 97.0784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "power.kicad_sch" (id 1) (at 104.14 125.0446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 39.37 59.69) (size 26.67 53.34) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 79cc698f-ee2f-4fbc-b977-bae81ed242f4)
-    (property "Sheet name" "ISO11446 dummy load" (id 0) (at 39.37 58.9784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "ISO11446.kicad_sch" (id 1) (at 39.37 113.6146 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 104.14 57.15) (size 20.32 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid d856896b-27de-4069-a596-f6babe8e4faa)
-    (property "Sheet name" "Signals output" (id 0) (at 104.14 56.4384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "signals.kicad_sch" (id 1) (at 104.14 84.4046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4" (page "2"))
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa" (page "3"))
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437" (page "4"))
-  )
-
-  (symbol_instances
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/6b15f26b-f928-4c42-882f-966f24125813"
-      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/a19c4a2c-997d-451b-91d9-c1226878e48b"
-      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/0500567b-d5f4-44a1-a5c7-c9bdf2c21543"
-      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/d029faa4-8531-4174-9aa4-6a2a18a67f0d"
-      (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/31cd7940-860e-44ab-8d7a-8c0d55a03e47"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/4d1291b6-908d-4dce-a91a-ba4550f978a1"
-      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/eebfff8c-b115-4795-b408-92bb237305cd"
-      (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/371ec44e-e1b9-4598-bf77-ea65ea765c71"
-      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/ee79a3c9-8a37-4449-a28c-584db5a8ef76"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/ae1318c8-9771-433c-98bb-115d91f6c028"
-      (reference "#PWR0107") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/a372a75e-71ba-4665-8d97-343ac8e0f3cc"
-      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/89177060-2e69-438e-b2bb-c6378858313f"
-      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/5446cbdc-4056-4580-b722-32f335dedb94"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/041a29dd-2406-4b79-a2dd-cb1f78a9ec38"
-      (reference "#PWR0111") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/8795a353-b6f3-463e-9867-2842801d2462"
-      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/25269b17-ff24-4347-878c-4053e42b73f9"
-      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/d235a1c6-c3c9-414d-b3b0-bf66f1321f81"
-      (reference "#PWR0114") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/8b572826-77dc-4da9-925e-13cfd8eb12cc"
-      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/730ed593-4aaf-4cc1-9378-ccc9f1cad6b1"
-      (reference "#PWR0116") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/e64e5a8e-d5ea-4004-8d80-d1e04c5f50e8"
-      (reference "#PWR0117") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/f699c043-9d68-4e9d-bcf4-fecf6f34ff17"
-      (reference "#PWR0118") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/f03ffc1b-d0e4-4840-a113-a30b5b55b235"
-      (reference "#PWR0119") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/9b522654-9061-4fa9-a540-00ca274108fb"
-      (reference "#PWR0120") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/dcaca2b1-86ad-4016-9b74-36ba7dbfcea7"
-      (reference "#PWR0121") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/dec6871a-9868-461c-85be-a0cb35e012dc"
-      (reference "#PWR0122") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/95c9a585-8a51-4db0-8fdb-a94794338c4b"
-      (reference "#PWR0123") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/1eb800c0-deae-4b92-b7d7-ccb89cf35e60"
-      (reference "#PWR0124") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/354882bd-88b4-4832-bc5c-a73e6c51949f"
-      (reference "#PWR0125") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/f02e9e89-c9db-44d0-9c2e-10ceda53e04e"
-      (reference "C1") (unit 1) (value "10uF") (footprint "Mlab_C:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/dd442f4b-1bf9-4706-8815-a6c0ec41ab28"
-      (reference "C2") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/a31e7ed0-a85d-4cdb-80cc-2a23123e0091"
-      (reference "D1") (unit 1) (value "BZV55C-5,6V") (footprint "Diode_SMD:D_SMA")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/31f13bd4-f1c6-4dd0-b419-4f1cb7e28f3e"
-      (reference "D2") (unit 1) (value "LED") (footprint "Mlab_D:LED_1206")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/58ef1619-a7fe-49c1-8a0b-bdb9e49b1b6c"
-      (reference "D3") (unit 1) (value "LED") (footprint "Mlab_D:LED_1206")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/bcccf317-247f-4030-99d0-286d7efd9bff"
-      (reference "D4") (unit 1) (value "LED") (footprint "Mlab_D:LED_1206")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/5603b2ca-8f29-4cff-8924-4517c985df46"
-      (reference "D5") (unit 1) (value "LED") (footprint "Mlab_D:LED_1206")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/b0606d39-139d-4b80-b93e-5c3bb7d235b7"
-      (reference "D6") (unit 1) (value "LED") (footprint "Mlab_D:LED_1206")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/703a7f85-d601-4c6f-b539-ff78f0142149"
-      (reference "D7") (unit 1) (value "LED") (footprint "Mlab_D:LED_1206")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/d626269f-f5e2-45b1-b569-c3b3cece64dc"
-      (reference "D8") (unit 1) (value "LED") (footprint "Mlab_D:LED_1206")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/56e4025a-b093-42f4-89cc-f5a1b36ad702"
-      (reference "D9") (unit 1) (value "LED") (footprint "Mlab_D:LED_1206")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/b4f611dd-76fd-4b95-b91a-01f97a7682a6"
-      (reference "D10") (unit 1) (value "LED") (footprint "Mlab_D:LED_1206")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/6f4ce839-7547-4042-9153-d6e9b821c07f"
-      (reference "F1") (unit 1) (value "SD110-16") (footprint "Mlab_F:1812")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/2be8d294-df19-44df-ae91-9858f7777c07"
-      (reference "F3") (unit 1) (value "SD110-16") (footprint "Mlab_F:1812")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/4de4a8b3-9046-477e-8a83-80207a312347"
-      (reference "F4") (unit 1) (value "16A") (footprint "Mlab_CON:Fuse-Keystone-3557-2")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/a5a7cc0f-76f5-410c-82fb-4ea7703e6cb0"
-      (reference "F5") (unit 1) (value "16A") (footprint "Mlab_CON:Fuse-Keystone-3557-2")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/eff4be10-554d-4fb5-bd17-d52d00653083"
-      (reference "J1") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/6f839d63-ff4f-4d22-8609-be75160407b5"
-      (reference "J2") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/7491d0f5-aed6-4594-9255-ba1dbd1bc34b"
-      (reference "J3") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/b30c21a2-d361-446f-8646-028fb1c1116f"
-      (reference "J4") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/1eee322b-22c9-4b48-b771-c38551f1d9d6"
-      (reference "J5") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/332a7599-1b16-4ec6-8ae5-ec4a05e116ef"
-      (reference "J6") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/f79e6029-8dc2-425d-a84b-66938b1c4e62"
-      (reference "J7") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/b459cf1f-2bf0-418b-bbd9-b03528af663b"
-      (reference "J8") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/04590424-41c0-4a23-a5f5-0a7356777e4b"
-      (reference "J9") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/1d61f5ab-ffa3-4dc4-85fe-12894564b525"
-      (reference "J10") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/08c943eb-7b4b-487b-9f23-041068afe87f"
-      (reference "J11") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/457be769-9637-4b4b-b5cd-5bc0ba407267"
-      (reference "J13") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/87c8db7e-f86f-42a9-93c5-1077d29e6a1e"
-      (reference "J14") (unit 1) (value "3.3-5V") (footprint "Mlab_Pin_Headers:Straight_2x03")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/f9cadbec-23eb-4afa-b9df-ac52aee78038"
-      (reference "J15") (unit 1) (value "Signals") (footprint "Mlab_Pin_Headers:Straight_2x07")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/e72e28cd-0494-4d69-8128-1ae84831f0b6"
-      (reference "J16") (unit 1) (value "2x4") (footprint "Mlab_Pin_Headers:Straight_2x04")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/b4d5a2f9-8cae-4bd1-a601-bbf0568c4092"
-      (reference "J18") (unit 1) (value "2x4") (footprint "Mlab_Pin_Headers:Straight_2x04")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/214cbe55-be26-4487-b983-11d90a24b616"
-      (reference "J19") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/44d545b5-d56c-4662-9ef6-c035402e0bef"
-      (reference "J20") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/5dcf644d-c45d-4538-87e5-ce99afbf4972"
-      (reference "J21") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/7a39b9ca-a161-4de3-936b-efe89d672a30"
-      (reference "J22") (unit 1) (value "WAGO 256-401") (footprint "Mlab_CON:WAGO256")
-    )
-    (path "/00000000-0000-0000-0000-0000549d7549"
-      (reference "M1") (unit 1) (value "HOLE M3") (footprint "Mlab_Mechanical:MountingHole_3mm")
-    )
-    (path "/00000000-0000-0000-0000-0000549d7628"
-      (reference "M2") (unit 1) (value "HOLE M3") (footprint "Mlab_Mechanical:MountingHole_3mm")
-    )
-    (path "/00000000-0000-0000-0000-0000549d7646"
-      (reference "M3") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
-    )
-    (path "/00000000-0000-0000-0000-0000549d7665"
-      (reference "M4") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/bdc0af5b-efcd-4037-b368-742f9e24d892"
-      (reference "R1") (unit 1) (value "33R") (footprint "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/73c5cf70-08fa-4ff5-86dd-98e311d7b935"
-      (reference "R2") (unit 1) (value "33R") (footprint "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/2cdad194-1e5b-469d-8a2b-4e340057a2a8"
-      (reference "R3") (unit 1) (value "33R") (footprint "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/2fa29e48-dfa2-43f6-817a-7e62b3039a38"
-      (reference "R4") (unit 1) (value "33R") (footprint "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/f2fcfe25-ab6b-46b4-8d65-5dbd88ee993c"
-      (reference "R5") (unit 1) (value "33R") (footprint "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/ea862143-6265-41a9-8c2f-1d69890307ca"
-      (reference "R6") (unit 1) (value "33R") (footprint "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm")
-    )
-    (path "/79cc698f-ee2f-4fbc-b977-bae81ed242f4/70e56d02-150d-46d0-9642-faa27f0850dd"
-      (reference "R7") (unit 1) (value "33R") (footprint "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/c6b01caf-7a70-47c3-9869-8657b1c1ec12"
-      (reference "R8") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/5f6b314e-bb02-41f4-ae08-9fe93c83cdd0"
-      (reference "R9") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/25418213-b868-4fb3-aa1e-f70ef109e703"
-      (reference "R10") (unit 1) (value "510R") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/1d21e765-3fd6-4eb6-a975-f845679e6bce"
-      (reference "R11") (unit 1) (value "510R") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/80dd08ac-24de-4d7d-affa-5026cec04820"
-      (reference "R12") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/1a4679d1-6268-4135-a8ad-6bacb7ea395b"
-      (reference "R13") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/4e88c4c4-7925-48bc-a99b-3ed6f5deecd2"
-      (reference "R14") (unit 1) (value "510R") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/41b705ea-5ece-43ff-b819-805523db87c5"
-      (reference "R15") (unit 1) (value "510R") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/5b4a399d-ca3e-449f-8963-695a7a0e97c7"
-      (reference "R16") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/486e94af-eee5-436a-ae3b-aa7f69cc19b9"
-      (reference "R17") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/c8b23614-6575-464d-8973-f3fb3324012f"
-      (reference "R18") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/9fab5b32-3269-4fff-b77e-8ff0e2caa720"
-      (reference "R19") (unit 1) (value "510R") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/2149d779-fad5-4b58-8aa1-6c1322dc3a3b"
-      (reference "R20") (unit 1) (value "510R") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/48dbe653-428e-4a02-b5eb-4e9a04dbaa8f"
-      (reference "R21") (unit 1) (value "510R") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/f20fe380-efb4-4d68-9b7a-8f43dd30f931"
-      (reference "R22") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/241c7625-1ff5-4493-b8d3-af61ba1e3437/aea71ab0-f77b-4864-ab64-59f6e8eaf908"
-      (reference "R23") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/d1b81448-c18b-417d-82ed-3521c7f0d1ed"
-      (reference "U1") (unit 1) (value "LTV-357T") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/1f4fbe4b-c120-44df-937d-62c1610b4cff"
-      (reference "U2") (unit 1) (value "LTV-357T") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/6a430bdb-8fba-403d-aaa4-99cf0b7117a3"
-      (reference "U3") (unit 1) (value "LTV-357T") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/853a0529-2190-4679-9de9-704ada36d447"
-      (reference "U4") (unit 1) (value "LTV-357T") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/26d35b57-eff7-4709-8dbf-65b3f02308aa"
-      (reference "U5") (unit 1) (value "LTV-357T") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/cc59d72e-68a3-4277-8923-bcf7555193e6"
-      (reference "U6") (unit 1) (value "LTV-357T") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
-    )
-    (path "/d856896b-27de-4069-a596-f6babe8e4faa/442ba59f-26d3-41da-86fe-2202ef0ec609"
-      (reference "U7") (unit 1) (value "LTV-357T") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
-    )
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4")
+	(paper "A4")
+	(title_block
+		(title "ISO11446PWR01")
+		(date "%d. %m. %Y")
+		(rev "A")
+		(company "Mlab www.mlab.cz")
+		(comment 1 "Car trailer emulator and\\nPower source with signals output")
+	)
+	(lib_symbols
+		(symbol "mlab-default-rescue:HOLE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "HOLE"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HOLE_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HOLE_1_1"
+				(pin input line
+					(at 1.27 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "MOUNTING HOLES"
+		(exclude_from_sim no)
+		(at 256.54 26.67 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "55e4c3d7-95bf-4bdc-9550-fe1ef46712f8")
+	)
+	(no_connect
+		(at 274.32 19.05)
+		(uuid "66df13f9-0eb7-44ae-bcc0-8043429c4ffa")
+	)
+	(no_connect
+		(at 259.08 19.05)
+		(uuid "6983f8b6-86a6-4349-a00c-0e2ff2297b34")
+	)
+	(no_connect
+		(at 269.24 19.05)
+		(uuid "9c969fad-cebd-4313-9f06-2f4e6d55911e")
+	)
+	(no_connect
+		(at 264.16 19.05)
+		(uuid "a10beb2d-dad6-4b7e-ab42-58626c7a268e")
+	)
+	(polyline
+		(pts
+			(xy 281.94 16.51) (xy 281.94 26.67)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "523c8c65-31d0-4cca-8782-1c8c5e03e680")
+	)
+	(polyline
+		(pts
+			(xy 281.94 26.67) (xy 256.54 26.67)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7a33bee4-c0d9-4b67-867e-3df207d51e36")
+	)
+	(polyline
+		(pts
+			(xy 256.54 26.67) (xy 256.54 16.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a6423cd7-7ec6-4d1e-b0bf-2a4a4a532b08")
+	)
+	(polyline
+		(pts
+			(xy 256.54 16.51) (xy 281.94 16.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d6ddd7a6-b56d-41ba-a72a-e71723aa4e5a")
+	)
+	(symbol
+		(lib_id "mlab-default-rescue:HOLE")
+		(at 259.08 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000549d7549")
+		(property "Reference" "M1"
+			(at 259.08 22.86 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE M3"
+			(at 261.62 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
+			(at 259.08 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81617ad2-3e05-4e97-8178-dddb279fd3a9")
+		)
+		(instances
+			(project ""
+				(path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mlab-default-rescue:HOLE")
+		(at 264.16 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000549d7628")
+		(property "Reference" "M2"
+			(at 264.16 22.86 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE M3"
+			(at 266.7 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2113e415-32f5-4dc9-9c35-c69e23c1da1d")
+		)
+		(instances
+			(project ""
+				(path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mlab-default-rescue:HOLE")
+		(at 269.24 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000549d7646")
+		(property "Reference" "M3"
+			(at 269.24 22.86 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 271.78 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
+			(at 269.24 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d251f4e-f244-484e-b93f-196cde01147f")
+		)
+		(instances
+			(project ""
+				(path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mlab-default-rescue:HOLE")
+		(at 274.32 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000549d7665")
+		(property "Reference" "M4"
+			(at 274.32 22.86 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 276.86 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
+			(at 274.32 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3631a353-ef28-46b4-b1a6-dced13eb85ca")
+		)
+		(instances
+			(project ""
+				(path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 97.79)
+		(size 20.32 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "241c7625-1ff5-4493-b8d3-af61ba1e3437")
+		(property "Sheetname" "Power Output"
+			(at 104.14 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 104.14 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ISO11446PWR01"
+				(path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 59.69)
+		(size 26.67 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79cc698f-ee2f-4fbc-b977-bae81ed242f4")
+		(property "Sheetname" "ISO11446 dummy load"
+			(at 39.37 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ISO11446.kicad_sch"
+			(at 39.37 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ISO11446PWR01"
+				(path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 57.15)
+		(size 20.32 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d856896b-27de-4069-a596-f6babe8e4faa")
+		(property "Sheetname" "Signals output"
+			(at 104.14 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "signals.kicad_sch"
+			(at 104.14 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ISO11446PWR01"
+				(path "/2ae32537-a16f-4c5b-a56b-c6dddfb8ddb4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
